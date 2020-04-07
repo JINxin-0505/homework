@@ -18,6 +18,8 @@ show engines;
 +--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
 9 rows in set (0.01 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m3.png)
+
 ## 2.创建一个新的表
 
 ```sql
@@ -44,6 +46,7 @@ describe stu_dept;
 +-------+-------------+------+-----+---------+-------+
 3 rows in set (0.01 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m4.png)
 
 ## 4.show tables 操作
 
@@ -65,6 +68,7 @@ show tables;
 alter table stu_dept rename student_dept;
 Query OK, 0 rows affected (0.03 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m5.png)
 
 ### （2）在表的最后一个位置增加字段
 
@@ -83,6 +87,7 @@ alter table student_dept
 Query OK, 0 rows affected (0.04 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m7.png)
 
 ### （4）在表的第一个位置增加字段
 
@@ -93,6 +98,7 @@ Records: 0  Duplicates: 0  Warnings: 0
 Query OK, 0 rows affected (0.05 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m8.png)
 
 ### （5）删除字段
 

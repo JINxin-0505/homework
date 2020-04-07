@@ -78,6 +78,7 @@ alter table student_dept
 Query OK, 0 rows affected (0.07 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m6.png)
 
 ### （3）在表的第一个位置增加字段
 
@@ -108,6 +109,7 @@ alter table student_dept
 Query OK, 0 rows affected (0.05 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m9.png)
 
 ### （6）修改字段的数据类型
 
@@ -117,6 +119,7 @@ alter table student_dept
 Query OK, 0 rows affected (0.05 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m10.png)
 
 ### （7）修改字段名字
 
@@ -126,6 +129,7 @@ alter table student_dept
 Query OK, 0 rows affected (0.02 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m11.png)
 
 ### （8）同时修改字段名字和属性
 
@@ -135,6 +139,7 @@ alter table student_dept
 Query OK, 0 rows affected (0.06 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m12.png)
 
 ### （9）修改字段顺序
 
@@ -144,6 +149,7 @@ alter table student_dept
 Query OK, 0 rows affected (0.04 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m13.png)
 
 ## 6.drop删除表
 
@@ -151,6 +157,7 @@ Records: 0  Duplicates: 0  Warnings: 0
 drop table student_dept;
 Query OK, 0 rows affected (0.01 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m14.png)
 
 ## 7.NOT NULL 操作
  
@@ -162,6 +169,7 @@ create table stu_dept(
     -> );
 Query OK, 0 rows affected (0.03 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m15.png)
 
 ## 8.UNIQUE 操作
 
@@ -173,6 +181,7 @@ create table st_dept(
     -> );
 Query OK, 0 rows affected (0.03 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m16.png)
 
 ## 9.PRIMARY KEY操作
 ### （1）单字段主键
@@ -185,6 +194,7 @@ Query OK, 0 rows affected (0.03 sec)
     -> );
 Query OK, 0 rows affected (0.03 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m17.png)
 
 ### （2）多字段主键
 
@@ -197,3 +207,4 @@ create table d_dept(
     -> );
 Query OK, 0 rows affected (0.03 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m18.png)

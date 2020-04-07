@@ -26,6 +26,7 @@ Query OK, 1 row affected (0.02 sec)
 +--------------------+
 10 rows in set (0.00 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m1.png)
 
 ## 选择数据库
 
@@ -40,3 +41,4 @@ Database changed
 drop database b_dept;
 Query OK, 0 rows affected (0.03 sec)
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m2.png)

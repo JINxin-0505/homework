@@ -1,7 +1,0 @@
-# 第一次作业
-## 创建一个数据库
-
-SQL
-create database b_dept;
-Query OK, 1 row affected (0.02 sec)
-```

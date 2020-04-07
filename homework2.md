@@ -90,7 +90,7 @@ Records: 0  Duplicates: 0  Warnings: 0
 ```
 ![](https://github.com/JINxin-0505/homework/blob/master/picture/m7.png)
 
-### （4）在表的第一个位置增加字段
+### （4）在表的指定位置增加字段
 
 ```sql
  alter table student_dept

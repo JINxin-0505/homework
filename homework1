@@ -30,14 +30,14 @@ show databases;
 ## 选择数据库
 
 ```sql
- use b_dept;
+use b_dept;
 Database changed
 ```
 
 ## 删除数据库
 
 ```sql
- drop database b_dept;
+drop database b_dept;
 Query OK, 0 rows affected (0.03 sec)
 
 mysql> show databases;

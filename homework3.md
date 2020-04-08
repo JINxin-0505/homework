@@ -70,9 +70,9 @@ select * from t_employee2;
 ![](https://github.com/JINxin-0505/homework/blob/master/picture/m19.png)
 
 ```sql
-select t1.ename '我',t2.ename '我的老板',t3.ename '我老板的老板'
-    -> from(t_employee2 t1 inner join t_employee2 t2 on t1.mgr= t2.empno ) inner join t_employee2 t3
-    -> on t2.mgr= t3.empno;
+ select t1.ename '我',t2.ename '我的老板',t3.ename '我老板的老板'
+    ->  from t_employee2 t1 inner join t_employee2 t2 on t1.mgr= t2.empno
+    ->  inner join t_employee2 t3 on t2.mgr= t3.empno;
 ```
 ![](https://github.com/JINxin-0505/homework/blob/master/picture/m20.png)
 

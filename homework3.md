@@ -63,3 +63,16 @@ mysql> INSERT INTO t_dept VALUES
 Query OK, 4 rows affected (0.01 sec)
 Records: 4  Duplicates: 0  Warnings: 0
 ```
+
+```sql
+select * from t_employee2;
+```sql
+
+
+```sql
+select t1.ename '我',t2.ename '我的老板',t3.ename '我老板的老板'
+    -> from(t_employee2 t1 inner join t_employee2 t2 on t1.mgr= t2.empno ) inner join t_employee2 t3
+    -> on t2.mgr= t3.empno;
+```
+
+

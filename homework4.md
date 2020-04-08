@@ -13,7 +13,7 @@ select * from t_employee2 WHERE sal > (select sal from t_employee2 WHERE ename='
 ![](https://github.com/JINxin-0505/homework/blob/master/picture/m22.png)
 
 ```sql
-select t1.deptno,t1.ename,t1.job,t1.mgr,t1.hiredate,t1.sal,t1.comm
+select t1.deptno,t1.empno,t1.ename,t1.job,t1.mgr,t1.hiredate,t1.sal,t1.comm
     ->  from t_employee2 t1 inner join t_employee2 t2
     ->  on t1.sal>t2.sal and (t2.ename='SMITH');
  ```

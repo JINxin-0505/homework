@@ -15,6 +15,7 @@ mysql> DELIMITER ;
 mysql>
 mysql> CALL proce_employee_sal();
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m26.png)
 
 ### 2.函数
 
@@ -31,3 +32,4 @@ mysql> DELIMITER ;
 mysql>
 mysql> SELECT func_employee_sal1 (7369);
 ```
+![](https://github.com/JINxin-0505/homework/blob/master/picture/m27.png)
